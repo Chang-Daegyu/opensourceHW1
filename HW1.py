@@ -3,7 +3,7 @@ def add(a, b):
     return a + b
 
 def subtract(a, b):
-    return a - b
+    return a - b - 1  # 충돌 유발을 위해 변경
 
 def multiply(a, b):
     return a * b
